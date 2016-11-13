@@ -1,0 +1,14 @@
+mov r3, 2 ;dfsd
+mov r2, 10  ;counter
+mov r3, 1  ; counter 2
+mov r4, 1  ; n control
+mov r5, 0  ; result - sum of square
+add r1, r5
+sub r1, r4
+jmp r4, 5
+sub r2, 1
+add r1, 1
+mov r1, r4
+jmp r2, 14
+jmp 5
+hlt
