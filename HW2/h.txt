@@ -1,0 +1,11 @@
+MOV #0, 30
+MOV #1, 23
+Mov #0,R1  ; instruction
+Mov #1,R2
+MOV #0, R3 
+SUB R1, R2 ; substraction for small
+JPN R1, 11
+prn 100
+MOV R2, #0 ; swap
+mov r3, #1
+hlt

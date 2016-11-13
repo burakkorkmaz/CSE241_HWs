@@ -1,0 +1,15 @@
+mov #0, 5
+mov r1, 10
+sub r1, #0;
+prn r1
+MOV R2, 10
+prn r2
+mov r2,r5
+add r1 , r1;adsd
+mov #1, 25
+add r4, #4
+sub r1, #0
+ mOv #1 ,r1
+ MOV   R3  ,   #1  
+ SUB R3, 5
+HLt 
